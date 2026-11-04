@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Reason — Reflections on Liberty</title>
+    <meta name="description" content="Essays on libertarian thought: self-ownership, the non-aggression principle, universally preferable behavior, voluntaryism, peaceful parenting, relationships, and the criticisms of each.">
+    <meta name="theme-color" content="#2c2824">
+    <meta name="color-scheme" content="light dark">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Library of Reason — Reflections on Liberty">
+    <meta property="og:description" content="Essays on libertarian thought, its Molyneux-influenced strands, and the criticisms of each.">
+    <meta property="og:site_name" content="Library of Reason">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Apply saved/system theme before first paint to avoid a light-to-dark flash -->
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem("library-of-reason-theme");
+                if (!t && window.matchMedia("(prefers-color-scheme: dark)").matches) t = "dark";
+                if (t === "dark") document.documentElement.classList.add("dark");
+            } catch (e) {}
+        })();
+    </script>
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%232c2824%27/%3E%3Cpath d=%27M16 5l9 11-9 11-9-11z%27 fill=%27%23c9a867%27/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"Library of Reason","description":"Essays on libertarian thought and its criticisms."}
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <p class="site-title">Library of <span>Reason</span></p>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="search" id="search" class="search-input" placeholder="Search sections…" aria-label="Search sections">
+                    <span id="search-results" class="search-results" aria-live="polite">All sections</span>
+                </div>
+                <nav class="site-nav" aria-label="Sections">
+                    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">
+                        <span class="nav-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+                        <span class="nav-label">Contents</span>
+                        <span class="nav-current" id="nav-current"></span>
+                    </button>
+                    <div class="nav-panel" id="nav-panel" hidden><div class="nav-group"><p>Foundations</p><a href="#intro">Introduction</a><a href="#history">History</a><a href="#principles">Principles</a><a href="#nap">NAP, Simply</a><a href="#upb">UPB</a><a href="#reason-force">Reason &amp; Force</a><a href="#voluntary-society">Voluntary Society</a></div><div class="nav-group"><p>Perspectives</p><a href="#case-for">The Case For</a><a href="#economics">Economics</a><a href="#figures">Figures</a><a href="#criticism">Criticisms</a><a href="#debates">Debates</a><a href="#quotes">Quotes</a></div><div class="nav-group"><p>Living It</p><a href="#peaceful-parenting">Peaceful Parenting</a><a href="#no-hitting">Why Not Hit?</a><a href="#relationships">Relationships</a><a href="#happiness">Happiness</a><a href="#living-it">Putting It Into Practice</a></div><div class="nav-group"><p>Study</p><a href="#quiz">Quiz</a><a href="#reading">Further Reading</a><a href="#freedomain">Freedomain Radio</a><a href="#glossary">Glossary</a></div></div>
+                </nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+                    <span class="theme-icon" aria-hidden="true">🌙</span>
+                </button>
+            </div>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-label="Sections read" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Reflections on Liberty</h1>
+            <p>A library of ideas on self-ownership, reason, and voluntary cooperation, with the strongest objections set beside each.</p>
+            <div class="hero-actions"><a class="btn" href="#intro">Start reading</a><a class="btn btn-ghost" href="#quiz">Test yourself</a></div>
+        </div>
+    </section>
+
+    <main class="container" id="main-content">
+        <p id="no-results" class="no-results" hidden>No sections match your search.</p>
+
+        <section class="content-area" id="intro">
+            <h2>Introduction</h2>
+            <p>
+                <strong>Libertarianism</strong> is a political and moral philosophy built on
+                <em>liberty</em>, <em>self-ownership</em>, and the <em>non-aggression principle</em>.
+                It holds that people should be free to live as they choose, provided they do not
+                initiate force or fraud against others.
+            </p>
+            <p>
+                This library follows one strand of that tradition: the rationalist, moral-first
+                libertarianism popularized online by Stefan Molyneux and Freedomain Radio. It argues
+                that ethics can be reasoned about like any other field, that force and persuasion are
+                opposites, and that the same principles apply to the state, the family, and the
+                individual. Because that strand is contested, each major idea here is paired with
+                its strongest objections.
+            </p>
+            <div class="card">
+                <h3>The Core Idea</h3>
+                <p>
+                    Each person owns themselves and may use their body, time, and property as they
+                    see fit. Coercion, including coercion by the state, is the thing that fundamentally
+                    limits human freedom.
+                </p>
+            </div>
+            <h3>Key Beliefs</h3>
+            <ul>
+                <li><strong>Self-ownership:</strong> Every individual owns their own body and mind.</li>
+                <li><strong>Non-aggression:</strong> Initiating force or threat against a person or their property is wrong.</li>
+                <li><strong>Private property:</strong> Individuals may acquire and hold property.</li>
+                <li><strong>Free markets:</strong> Voluntary exchange and competition tend to produce good outcomes.</li>
+                <li><strong>Reason over force:</strong> Disagreements should be settled by argument and consent, not threats.</li>
+            </ul>
+                                <h3>Where to Start</h3>
+            <div class="paths">
+                <div class="card"><h3>30-minute tour</h3><p><a href="#nap">NAP, simply</a> · <a href="#upb">UPB</a> · <a href="#criticism">Criticisms</a> · <a href="#quiz">Quiz</a></p></div>
+                <div class="card"><h3>For parents</h3><p><a href="#nap">NAP, simply</a> · <a href="#peaceful-parenting">Peaceful parenting</a> · <a href="#relationships">Relationships</a> · <a href="#happiness">Happiness</a></p></div>
+                <div class="card"><h3>For philosophy students</h3><p><a href="#principles">Principles</a> · <a href="#upb">UPB</a> · <a href="#debates">Debates</a> · <a href="#reading">Reading</a></p></div>
+            </div>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Libertarianism rests on self-ownership and the non-aggression principle (NAP).</li><li>This library follows the rationalist strand popularized by Molyneux, with objections beside each idea.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="history">
+            <h2>History</h2>
+            <p>
+                Libertarian ideas have deep roots, but the modern movement is a product of the 19th
+                and 20th centuries and, more recently, of the internet.
+            </p>
+            <h3>Timeline</h3>
+            <ol class="timeline"><li><b>1689</b> Locke publishes the <em>Second Treatise</em>, grounding rights in nature.</li><li><b>1776</b> Smith's <em>Wealth of Nations</em> makes the case for free markets.</li><li><b>1850</b> Bastiat's <em>The Law</em> defends property against legal plunder.</li><li><b>1859</b> Mill's <em>On Liberty</em> states the harm principle.</li><li><b>1945</b> Hayek explains how prices carry dispersed knowledge.</li><li><b>1974</b> Nozick defends the minimal state.</li><li><b>2005</b> Molyneux launches Freedomain Radio.</li><li><b>2007</b> <em>Universally Preferable Behavior</em> is published.</li><li><b>2020</b> YouTube terminates Molyneux's channel for hate-speech violations.</li></ol>
+            <h3>Classical Roots</h3>
+            <ul>
+                <li><strong>John Locke (1632–1704)</strong> argued for natural rights to life, liberty, and property.</li>
+                <li><strong>Adam Smith (1723–1790)</strong> made the case for free markets in <em>The Wealth of Nations</em>.</li>
+                <li><strong>Frédéric Bastiat (1801–1850)</strong> defended property and criticized legal plunder in <em>The Law</em>.</li>
+                <li><strong>John Stuart Mill (1806–1873)</strong> set out the harm principle in <em>On Liberty</em>.</li>
+                <li><strong>Lysander Spooner (1808–1887)</strong> argued, in <em>No Treason</em>, that the state's claim to consent is empty.</li>
+            </ul>
+            <h3>The Modern Movement</h3>
+            <ul>
+                <li><strong>Ludwig von Mises and Friedrich Hayek</strong> developed the Austrian critique of central planning.</li>
+                <li><strong>Murray Rothbard (1926–1995)</strong> fused natural-rights ethics with free-market economics into anarcho-capitalism.</li>
+                <li><strong>Robert Nozick (1938–2002)</strong> defended the minimal state in <em>Anarchy, State, and Utopia</em> (1974).</li>
+            </ul>
+            <h3>The Internet Era</h3>
+            <p>
+                In 2005 Stefan Molyneux launched Freedomain Radio, a podcast and community that
+                brought libertarian philosophy to a mass online audience. Its emphasis on ethics,
+                personal relationships, and debate by argument shaped how many younger libertarians
+                first met these ideas. Its later political direction is discussed under
+                <a href="#criticism">Criticisms</a>.
+            </p>
+                                <h3>The Austrian School</h3>
+            <ul>
+                <li><strong>1871:</strong> Carl Menger’s <em>Principles of Economics</em> founds the school, built on subjective value and individual choice.</li>
+                <li><strong>1920s–40s:</strong> Mises and Hayek argue that socialist planning cannot calculate costs without market prices.</li>
+                <li><strong>1974:</strong> Hayek shares the Nobel Prize in Economics.</li>
+                <li><strong>1982:</strong> The Mises Institute is founded in Alabama to carry the tradition forward.</li>
+            </ul>
+            <h3>The American Libertarian Movement</h3>
+            <ul>
+                <li><strong>1971:</strong> The Libertarian Party is founded in Colorado.</li>
+                <li><strong>1972:</strong> Its first presidential candidate, John Hospers, runs, and Tonie Nathan receives an electoral vote, the first for a woman.</li>
+                <li><strong>1980:</strong> Ed Clark runs for president, with David Koch as his running mate.</li>
+                <li><strong>2008 and 2012:</strong> Ron Paul’s campaigns bring libertarian ideas to millions of new listeners.</li>
+            </ul>
+            <h3>Freedomain Radio’s Growth</h3>
+            <p>
+                Freedomain Radio started in 2005 as a podcast and grew through books, call-in shows,
+                and video. By mid-2020 his YouTube channel had roughly 900,000 subscribers. After
+                the 2020 ban, the show moved to its own site and other platforms, and its episode
+                numbers have since passed 6,000. Supporters see it as one of the longest-running
+                philosophy programs online.
+            </p>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Ideas run from Locke and Smith through Mises, Hayek, Rothbard and Nozick.</li><li>Freedomain Radio (2005) carried these ideas to a mass online audience.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="principles">
+            <h2>Core Principles</h2>
+            <p>These interlocking principles are the ethical foundation from which policy positions are derived.</p>
+            <h3>1. Self-Ownership</h3>
+            <p>Each person owns their body, mind, and talents. No one else has a legitimate claim to control them. Every other libertarian claim starts here.</p>
+            <h3>2. The Non-Aggression Principle (NAP)</h3>
+            <p>Initiating force, fraud, or coercion against a person or their justly acquired property is illegitimate. The NAP separates acceptable action from aggression. Defensive force is permitted.</p>
+            <h3>3. Private Property</h3>
+            <p>If you own yourself, you own the product of your labor and what you acquire through voluntary exchange. This includes the right to use, sell, or bequeath it.</p>
+            <h3>4. Voluntary Exchange</h3>
+            <p>When two parties freely agree to trade, both expect to be better off. Libertarians treat consent as the test of a legitimate interaction.</p>
+            <h3>5. Limits on Power</h3>
+            <p>Minarchists support a state limited to protecting rights and enforcing contracts. Anarcho-capitalists argue even that role should be provided voluntarily. Both start from the same suspicion of coercive power.</p>
+                    <aside class="molyneux"><h3>Molyneux's perspective</h3><p>Molyneux presents self-ownership and the NAP as conclusions, not preferences. In his view they follow from UPB: anyone who argues is already using their own mind and body and treating persuasion as preferable to force. Supporters find this appealing because it offers a reason, not just a creed.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Self-ownership is the starting point; the NAP separates aggression from legitimate action.</li><li>Minarchists keep a minimal state; anarcho-capitalists would remove it.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="nap">
+            <h2>The Non-Aggression Principle, Simply</h2>
+            <p class="lede">Don't start it. Don't use force, threats, or fraud against another person or their property. Defending yourself is always allowed.</p>
+            <h3>Three Questions to Ask</h3>
+            <ol class="steps">
+                <li><strong>Is force, a threat, or fraud involved?</strong> If not, the principle does not apply.</li>
+                <li><strong>Did the other person agree?</strong> A boxing match is not assault. A mugging is.</li>
+                <li><strong>Who started it?</strong> Starting is the wrong. Responding to force with proportionate force is defense.</li>
+            </ol>
+            <h3>Examples</h3>
+            <div class="cases"><div class="case agg"><span class="tag">Aggression</span><p>A neighbor takes your bike without asking. This is theft.</p></div><div class="case agg"><span class="tag">Aggression</span><p>A seller hides that a used car’s engine is failing and calls it perfect. This is fraud.</p></div><div class="case agg"><span class="tag">Aggression</span><p>"Pay me or I will break your window." This is a threat used to extract money.</p></div><div class="case ok"><span class="tag">Not aggression</span><p>A new bakery sells cheaper bread and the old bakery loses customers. Competing is not force.</p></div><div class="case ok"><span class="tag">Not aggression</span><p>You push away someone who is attacking you. Defense is allowed.</p></div><div class="case ok"><span class="tag">Not aggression</span><p>You decline to sell to someone, or ignore them. Refusing to deal is not force.</p></div><div class="case ok"><span class="tag">Not aggression</span><p>Someone insults you. Words alone are not force, though a threat is.</p></div><div class="case maybe"><span class="tag">Debated</span><p>A factory’s smoke drifts onto neighbors’ land. Is pollution a form of force?</p></div><div class="case maybe"><span class="tag">Debated</span><p>A parent grabs a toddler running into traffic. Most say yes, it is protection. How far does that go?</p></div><div class="case maybe"><span class="tag">Debated</span><p>Taxation. Libertarians call it force; others call it payment for services agreed through democracy.</p></div></div>
+            <div class="card">
+                <h3>Why It Matters</h3>
+                <p>The principle gives one rule for strangers, businesses, governments, and families. If it is wrong to start force in the street, supporters ask, why is it acceptable in an office or a home? The Debated cases show where thoughtful people still disagree about where the line falls.</p>
+            </div>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Aggression means starting force, threat, or fraud.</li><li>Competing, refusing to trade, and insulting are not aggression. Defense is allowed.</li><li>Pollution, protecting children, and taxation are the hard cases.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="upb">
+            <h2>Universally Preferable Behavior</h2>
+            <p>
+                <em>Universally Preferable Behavior</em> (UPB) is the ethical theory Molyneux presented
+                in his 2007 book <em>Universally Preferable Behavior: A Rational Proof of Secular Ethics</em>.
+                It tries to derive the non-aggression principle from logic rather than from religion,
+                tradition, or intuition.
+            </p>
+            <h3>The Argument in Outline</h3>
+            <ul>
+                <li><strong>Start with debate itself.</strong> Anyone who argues about ethics is already treating truth and reasoned argument as preferable to falsehood and force.</li>
+                <li><strong>Moral rules must be universal.</strong> A valid rule for human behavior should apply to everyone, in the same way, at all times, like a rule in physics or mathematics.</li>
+                <li><strong>Some actions fail that test.</strong> Rape, theft, assault, and murder require one person to act and another to be unwilling, so they cannot be preferred by everyone involved. Molyneux argues they therefore cannot be universal rules.</li>
+                <li><strong>Conclusion.</strong> Initiating force is incompatible with a universal ethic, which yields something very close to the NAP.</li>
+            </ul>
+            <div class="card">
+                <h3>Why It Appeals</h3>
+                <p>
+                    It promises an ethics that does not depend on faith or on any particular culture,
+                    and it connects personal morality, politics, and parenting under one rule.
+                </p>
+            </div>
+                        <h3>Worked Examples</h3>
+            <details><summary>Theft</summary><p>Proposed rule: "Anyone may take what they want." The thief wants to keep the item, and the owner also wants to keep it. Both cannot act on the rule at once. Molyneux says a rule that works only when one side is unwilling cannot be universal.</p></details>
+            <details><summary>Lying</summary><p>Proposed rule: "It is fine to lie to get what you want." If everyone did this, nobody could trust anything anyone said, and the lie would stop working. Supporters see a rule that defeats itself.</p></details>
+            <details><summary>Hitting</summary><p>Proposed rule: "The stronger person may hit the weaker." The one hitting prefers it, and the one being hit does not. As with theft, the rule needs an unwilling victim.</p></details>
+            <p><strong>Where critics say the test strains:</strong> it must decide which acts count as "the same act" (is self-defense the same as assault?), and it must explain why a rule that fails the test is therefore <em>wrong</em>, not just unpopular. Gordon argues this gap is where the proof stops working.</p>
+            <blockquote>Molyneux argues that any debate already shows "a preference for truth over falsehood."<cite>Stefan Molyneux, <em>Universally Preferable Behavior</em> (2007), as quoted in David Gordon's Mises Daily review</cite></blockquote>
+            <h3>Where Critics Push Back</h3>
+            <p>
+                Even sympathetic libertarians have been harsh. In the <em>Mises Review</em> (2012),
+                philosopher David Gordon judged that the book fails, and a Mises Institute essay by
+                the same author argued that Molyneux confuses two senses of "preferable": what a
+                person must prefer in order to argue or stay alive, and what it is morally
+                obligatory to prefer. Other objections:
+            </p>
+            <ul>
+                <li>The step from "we prefer truth while debating" to "we are bound by moral rules" is not shown, which is the classic is/ought gap.</li>
+                <li>Universalizability tests have long been criticized as too thin to generate a full ethic, in Kant's version as well.</li>
+                <li>Defenders and critics disagree over whether the theory rules out only aggression or also settles harder cases such as self-defense and punishment.</li>
+            </ul>
+                    <aside class="response"><h3>A libertarian response</h3><p>Libertarians note that the non-aggression principle does not rest on UPB alone. It can also be defended through natural-rights reasoning, through the practical record of voluntary cooperation, and through the simple consistency argument that force needs a justification. Molyneux maintains that UPB has withstood scrutiny for nearly two decades, and supporters say critics have offered objections, not a refutation. Even if the proof is imperfect, they argue, the question it asks is the right one.</p></aside>
+            <aside class="molyneux"><h3>Molyneux's perspective</h3><p>Supporters describe UPB as the center of his work: a single test, "could everyone do this at once without contradiction?", that can be applied to a business, a government, or a household. They credit him with insisting that morality be argued for, not simply asserted.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>UPB tries to derive the NAP from the logic of debate and universal rules.</li><li>Even libertarian reviewers argue it confuses two senses of "preferable."</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="reason-force">
+            <h2>Reason Versus Force</h2>
+            <p>
+                A recurring theme in rationalist libertarianism is that there are only two ways to
+                get people to act: persuade them or compel them. Everything the state does, on this
+                view, ultimately rests on the threat of force, so it deserves the moral scrutiny we
+                would give a private person making the same threat.
+            </p>
+            <h3>The Argument Against the State</h3>
+            <ul>
+                <li>Taxation and regulation are enforced by penalties, including imprisonment, for refusal.</li>
+                <li>If an individual may not initiate force, it is hard to explain how a group of individuals acquires that right by voting or by wearing a uniform.</li>
+                <li>Therefore, libertarians conclude, services now provided by the state should be offered by voluntary means.</li>
+            </ul>
+            <h3>Voluntaryism in Practice</h3>
+            <p>
+                Anarcho-capitalists point to private arbitration, insurance, reputation systems, and
+                competing security firms as alternatives for courts and policing. David Friedman's
+                <em>The Machinery of Freedom</em> and Rothbard's <em>For a New Liberty</em> (both 1973)
+                are the standard book-length statements of the case.
+            </p>
+            <div class="card">
+                <h3>The Strongest Objections</h3>
+                <p>
+                    Critics ask who enforces judgments against a powerful private security firm,
+                    how public goods such as clean air are funded without compulsion, and whether
+                    the voluntary society would be stable or would simply produce new rulers. Minarchists
+                    such as Nozick accept the premise of limited government but reject abolishing it.
+                </p>
+            </div>
+                    <aside class="response"><h3>A libertarian response</h3><p>Private firms depend on paying customers and can lose them, while a state cannot be fired by leaving. Libertarians say the same worries apply to governments, which have enforced rights poorly and have their own history of abuse. On public goods, they point to clubs, charities, mutual-aid societies, and fee-funded services as working examples, and note that critics assume the state is the only solution without proving it.</p></aside>
+            <aside class="molyneux"><h3>Molyneux's perspective</h3><p>A central Molyneux thesis is that attitudes toward political force are learned early. People raised with violence, he argues, come to see force as normal, so ending violence in the home is a step toward ending it in society. Supporters find this a humane link between parenting and politics. Critics call it speculative, and the evidence for it is indirect.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>The argument: state action rests on force, so it needs a moral justification.</li><li>Open questions: enforcement, public goods, and whether a stateless order would be stable.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="voluntary-society">
+            <h2>A Voluntary Society in Practice</h2>
+            <p>
+                Anarcho-capitalists, Molyneux among them, argue that the NAP leads logically to a
+                society without a coercive state. Skeptics ask for examples. Here are three, with what
+                each shows and what it does not.
+            </p>
+            <h3>Private Arbitration Today</h3>
+            <p>
+                Businesses already settle many disputes outside state courts. Arbitration clauses
+                are common, and international commerce relies heavily on private arbitration because
+                no single state court has authority across borders. Parties choose the arbitrator,
+                and reputation does much of the enforcing.
+            </p>
+            <h3>The Medieval Law Merchant</h3>
+            <p>
+                Medieval traders developed shared commercial rules and merchant courts that worked
+                across kingdoms. Economic historians such as Paul Milgrom, Douglass North, and
+                Barry Weingast describe how reputation and the threat of exclusion helped enforce
+                agreements. Over time, states absorbed these rules into national law.
+            </p>
+            <h3>Medieval Iceland (c. 930–1262)</h3>
+            <p>
+                Iceland’s commonwealth had no king or central executive. Law was made and judged at
+                the yearly Althing, and local chieftains held authority that followers could shift
+                to another chieftain. David Friedman has studied it as a case of privately enforced
+                law. It lasted over three centuries.
+            </p>
+            <div class="card">
+                <h3>What These Cases Do and Do Not Show</h3>
+                <p>
+                    They show that law, enforcement, and dispute resolution can be organized
+                    voluntarily, and that reputation can be a powerful enforcer. Critics note that
+                    each case operated inside or beside larger political orders, and that Iceland’s
+                    later years saw power concentrate among a few chieftains and end in civil conflict
+                    before the island accepted Norway’s king. Supporters reply that no system is perfect, and that the
+                    state has its own record of failure.
+                </p>
+            </div>
+            <aside class="molyneux"><h3>Molyneux's perspective</h3><p>He argues that if the NAP is true, it applies to everyone, including those who govern, and that a society of persuasion is the goal to work toward. He presents this as a long-term moral aim, not a plan for tomorrow. Supporters value that it forces a serious question: what would we do without force?</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Voluntary dispute resolution already exists in commerce.</li><li>Historical cases support the idea but come with caveats.</li><li>Both supporters and critics should name what would count as evidence.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="case-for">
+            <h2>The Case for Molyneux's Philosophy</h2>
+            <p>
+                Molyneux has a large and loyal audience, and his supporters have clear reasons
+                for it. This section sets out the case they make, in their own terms. The
+                objections are in <a href="#criticism">Criticisms</a>, and readers should weigh both.
+            </p>
+            <h3>What Supporters Value</h3>
+            <ul>
+                <li><strong>Ethics you can argue about.</strong> UPB is an ambitious attempt to give secular morality a logical footing, and supporters credit him for taking on a question many philosophers avoid.</li>
+                <li><strong>Consistency.</strong> He applies one rule, no initiating force, to the state, the school, the workplace, and the home, and invites listeners to test it against their own lives.</li>
+                <li><strong>Peaceful parenting.</strong> His insistence that children deserve the same respect as adults has helped many parents reconsider spanking and shouting, a view that research and pediatric guidance now broadly support.</li>
+                <li><strong>Philosophy as self-knowledge.</strong> His call-in shows treat philosophy as something to live by, helping people examine childhood, habits, and relationships honestly.</li>
+                <li><strong>Argument over force.</strong> He argues that persuasion is the only moral way to change minds, and he has hosted many guests with whom he disagrees.</li>
+                <li><strong>Personal responsibility.</strong> Listeners often say his emphasis on honesty, courage, and accountability changed how they approached work, family, and truth-telling.</li>
+            </ul>
+            <div class="card">
+                <h3>Scale and Longevity</h3>
+                <p>
+                    Freedomain Radio began in 2005 and has produced thousands of episodes and
+                    dozens of books. His published biography lists interviews with figures such as
+                    Noam Chomsky, Nathaniel Branden, Warren Farrell, and Peter Schiff, and the show
+                    was a top-ten finalist in the Education category of the Podcast Awards from
+                    2007 to 2010. Supporters see this as proof that serious philosophy can find a popular audience.
+                </p>
+            </div>
+            <h3>How to Engage With It Well</h3>
+            <p>
+                A good way to honor a philosophy that prizes argument is to test it. Read UPB,
+                try to write the strongest objection, then read David Gordon's review and compare
+                notes. Apply the peaceful-parenting ideas that hold up under the research, and
+                weigh advice about family estrangement against what a licensed therapist would say.
+            </p>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Supporters value his consistency, his focus on ethics and parenting, and his commitment to argument.</li><li>The strongest form of respect for a rationalist is to test the ideas against the best objections.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="economics">
+            <h2>Libertarian Economics</h2>
+            <p>Libertarians see voluntary exchange as the most efficient and most just way to organize economic life.</p>
+            <h3>Prices as Information</h3>
+            <p>
+                Following Smith, libertarians argue that people pursuing their own interests through
+                voluntary trade unintentionally serve others. Prices, shaped by supply and demand,
+                coordinate the plans of millions of strangers.
+            </p>
+            <h3>Key Economic Views</h3>
+            <ul>
+                <li><strong>Free markets:</strong> Competition drives innovation and lowers prices.</li>
+                <li><strong>Property rights:</strong> Ownership gives people reason to maintain and improve resources.</li>
+                <li><strong>Spontaneous order:</strong> Complex, useful institutions emerge without a central designer.</li>
+                <li><strong>Opportunity cost:</strong> Every government program has a cost in what taxpayers would otherwise have done.</li>
+                <li><strong>Sound money:</strong> Many Austrian-school libertarians distrust central banking and inflation.</li>
+                <li><strong>Public choice:</strong> Officials respond to incentives, not only to the public good.</li>
+            </ul>
+            <div class="card">
+                <h3>The Knowledge Problem</h3>
+                <p>
+                    Hayek argued that the knowledge needed to run an economy is scattered among
+                    millions of people and cannot be collected by any planner. Markets transmit it
+                    through prices.
+                </p>
+            </div>
+            <h3>What the Evidence Says</h3>
+            <p>
+                Cross-country indexes such as the Fraser Institute's <em>Economic Freedom of the World</em>
+                find that economically freer countries tend to be richer. That is an association, not
+                proof of cause, and critics note that several high-ranking countries also have large
+                welfare states and high taxes.
+            </p>
+                                <h3>Markets in Practice: Four Case Studies</h3>
+            <p>Libertarians argue that the best test of an idea is how it works. These cases are common ones, with the libertarian view, the critics’ reply, and the research.</p>
+            <details><summary>Rent control</summary><div class="duel"><div><h4>Libertarian view</h4><p>A price ceiling on housing makes building and maintaining rentals less profitable, so less housing is offered and quality falls.</p></div><div><h4>Critics respond</h4><p>Controls protect sitting tenants from displacement and sudden rent spikes, which matters for families and the elderly.</p></div></div><p><strong>What the evidence says:</strong> A 2019 study of San Francisco by Diamond, McQuade, and Qian found that landlords cut rental housing supply by about 15% in affected buildings, which pushed citywide rents up. Tenants who were covered did benefit. Surveys of economists lean against rent control.</p></details><details><summary>Occupational licensing</summary><div class="duel"><div><h4>Libertarian view</h4><p>Licenses often protect existing workers from competition, raising prices and shutting out newcomers, such as hair braiders and florists.</p></div><div><h4>Critics respond</h4><p>Licensing protects the public in high-risk fields such as medicine, and it signals quality when customers cannot judge for themselves.</p></div></div><p><strong>What the evidence says:</strong> Roughly a quarter of US workers now need a license, up from about 5% in the 1950s. Studies find higher prices but only mixed evidence of better quality outside high-risk professions.</p></details><details><summary>Minimum wage</summary><div class="duel"><div><h4>Libertarian view</h4><p>A wage floor makes the least experienced workers more expensive to hire and can price them out of jobs.</p></div><div><h4>Critics respond</h4><p>Employers often have wage-setting power, so modest increases can raise pay with little job loss.</p></div></div><p><strong>What the evidence says:</strong> Evidence is genuinely mixed. Card and Krueger found little job loss from a moderate increase in the 1990s, while Neumark and Wascher found losses. The US Congressional Budget Office estimated in 2019 that a $15 federal minimum would raise pay for many but cost jobs.</p></details><details><summary>Public goods: the lighthouse</summary><div class="duel"><div><h4>Libertarian view</h4><p>Economists once used lighthouses as proof that markets cannot supply public goods. Ronald Coase showed that many English lighthouses were built and run privately, and funded by port fees.</p></div><div><h4>Critics respond</h4><p>Those lighthouses relied on rights and fee collection that the Crown granted, so the example is not a pure free market.</p></div></div><p><strong>What the evidence says:</strong> Coase’s 1974 article is a standard reminder that “market failure” claims need historical testing. It does not settle how to fund all public goods.</p></details>
+            <aside class="response"><h3>A libertarian response</h3><p>Where critics see a need for rules, libertarians propose voluntary substitutes. Private certifiers such as Underwriters Laboratories, professional boards, and review sites inform consumers without banning competitors, and liability law lets people sue for real harm. On rent control and the minimum wage, they argue that helping the poor is a worthy goal and that price controls tend to hurt the people they are meant to help. Better answers are more building, more competition, and voluntary charity.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Prices carry dispersed knowledge (Hayek).</li><li>Economic freedom correlates with wealth, but correlation is not proof of cause.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="figures">
+            <h2>Key Figures</h2>
+            <p>Thinkers who shaped libertarian philosophy, in rough chronological order.</p>
+            <div class="people">
+                <div class="card"><h3>John Locke</h3><small>1632–1704</small><p>Natural rights to life, liberty, and property.</p></div>
+                <div class="card"><h3>Adam Smith</h3><small>1723–1790</small><p>The market as a system of voluntary cooperation.</p></div>
+                <div class="card"><h3>Frédéric Bastiat</h3><small>1801–1850</small><p>Property, law, and the seen and unseen costs of policy.</p></div>
+                <div class="card"><h3>John Stuart Mill</h3><small>1806–1873</small><p>The harm principle and individual liberty of thought.</p></div>
+                <div class="card"><h3>Ludwig von Mises</h3><small>1881–1973</small><p>Economic calculation and human action.</p></div>
+                <div class="card"><h3>Friedrich Hayek</h3><small>1899–1992</small><p>Dispersed knowledge, markets, and spontaneous order.</p></div>
+                <div class="card"><h3>Murray Rothbard</h3><small>1926–1995</small><p>Systematized anarcho-capitalism and natural-rights ethics.</p></div>
+                <div class="card"><h3>Robert Nozick</h3><small>1938–2002</small><p>A philosophical defense of the minimal state.</p></div>
+                <div class="card featured"><h3>Stefan Molyneux</h3><small>b. 1966</small><p>Founder of Freedomain Radio; UPB, peaceful parenting, and argument over force.</p></div>
+            </div>
+            <div class="card">
+                <h3>Note on Ayn Rand</h3>
+                <p>
+                    Ayn Rand (1905–1982) developed Objectivism, which overlaps with libertarianism
+                    but which she rejected as a label. Her emphasis on rational self-interest and
+                    individual rights influenced many libertarians.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Note on Stefan Molyneux</h3>
+                <p>
+                    Stefan Molyneux (born 1966 in Ireland, raised in Canada) is a former software
+                    entrepreneur who founded Freedomain Radio in 2005. He describes himself as a
+                    philosopher and an anarcho-capitalist, and he is known for UPB, for his writing
+                    on peaceful parenting, and for his long-running philosophy show. Admirers see him
+                    as a rare popularizer of rigorous ethics. He is also controversial, and many
+                    libertarians reject his later political positions. See
+                    <a href="#case-for">The Case For</a> and <a href="#criticism">Criticisms</a>.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-area" id="criticism">
+            <h2>Criticisms</h2>
+            <p>Libertarianism has been debated for generations. Critics raise concerns in economics, ethics, and practical governance.</p>
+            <h3>Economic and Practical Concerns</h3>
+            <ul>
+                <li><strong>Inequality:</strong> Free markets can concentrate wealth and power and leave some people without basic necessities.</li>
+                <li><strong>Market failures:</strong> Externalities and public goods may not be handled well by voluntary exchange alone.</li>
+                <li><strong>Enforcement:</strong> It is unclear how rights would be enforced without something like a state.</li>
+            </ul>
+            <aside class="response"><h3>A libertarian response</h3><p>On inequality, libertarians argue that markets have lifted billions out of poverty and that what matters most is that people are richer in absolute terms, not that everyone holds equal amounts. Charity and mutual aid, they add, work better without compulsion. On market failures, Ronald Coase showed that clear property rights and negotiation can solve many externalities, and liability law deals with pollution. On enforcement, they point to private arbitration and insurance.</p></aside>
+            <h3>Ethical Concerns</h3>
+            <ul>
+                <li><strong>Positive rights:</strong> Does a right to life imply a duty to help, for example through healthcare?</li>
+                <li><strong>Original acquisition:</strong> Critics argue initial property claims cannot fully justify later holdings.</li>
+                <li><strong>Defining aggression:</strong> Pollution, noise, and taxation are all contested under the NAP.</li>
+                <li><strong>Children:</strong> Children are not fully self-governing, so libertarians disagree about parental authority and duties.</li>
+            </ul>
+            <aside class="response"><h3>A libertarian response</h3><p>Libertarians reply that rights to life and liberty restrict what others may do to you and do not create a claim on their labor. Helping the needy is a virtue that is best given freely. On original acquisition, they rely on Locke’s idea of mixing labor with unowned resources, along with rectification of past wrongs. On the NAP’s edges, property rights clarify who may do what, and the hard cases call for better law, not abandoning the principle. On children, libertarians generally say parents are guardians with duties, not owners.</p></aside>
+            <h3>Criticisms of Freedomain Radio and Molyneux</h3>
+            <p>These are documented in news coverage and by advocacy groups. Molyneux disputes many of them.</p>
+            <ul>
+                <li><strong>Philosophical:</strong> UPB has been called unsound even by libertarian reviewers (see <a href="#upb">UPB</a>).</li>
+                <li><strong>Family estrangement:</strong> Molyneux has encouraged listeners to cut ties with parents or relatives he or they judge abusive, which he calls "deFOOing." Journalists as early as 2009 described the community as a "therapy cult," and a 2016 episode of the documentary series <em>Dark Net</em> made the same charge. Mental-health professionals warn that estrangement is a major step with lasting costs.</li>
+                <li><strong>Political shift:</strong> The Southern Poverty Law Center says his views grew far-right and ethno-nationalist around 2013–2014. Critics say his claims about race and IQ are not supported by mainstream genetics or psychology, and that judging people as members of groups contradicts the individualism libertarianism is built on.</li>
+                <li><strong>Platform bans:</strong> YouTube terminated his channel on June 29, 2020 for violating its hate-speech policy, and PayPal, Mailchimp, and SoundCloud also cut ties. He called the YouTube ban an "egregious error."</li>
+            </ul>
+            <aside class="response"><h3>Molyneux’s response and supporters’ reply</h3><p><strong>On UPB:</strong> Molyneux says the argument has held up under years of challenge, and supporters add that the NAP stands on other grounds too, so a critique of UPB is not a critique of libertarian ethics. <strong>On “deFOO” and the “cult” label:</strong> he says adult relationships should be voluntary and that his advice is for people who have tried and failed to resolve serious abuse. Supporters note that listeners are adults who choose for themselves, that call-in shows are consensual conversations, and that many credit them with helping. <strong>On the political criticisms and bans:</strong> he disputes the characterizations and called the YouTube ban an “egregious error.” Supporters argue that disagreement should be answered with argument, not removal, a concern many free-speech libertarians share even when they disagree with him. Critics reply that research on race and IQ does not support the conclusions he draws, and that is where the factual dispute lies. Readers should judge by the evidence.</p></aside>
+            <div class="card">
+                <h3>A Libertarian Response</h3>
+                <p>
+                    Libertarians counter that coercion is itself a harm, that voluntary solutions
+                    often outperform forced ones, and that a limited state is preferable to an
+                    expansive one. Many also add that the ideas should be judged on their arguments,
+                    and that those arguments do not depend on any one popularizer.
+                </p>
+            </div>
+                    <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Objections target inequality, public goods, enforcement, and how "aggression" is defined.</li><li>Criticisms of Molyneux concern UPB, family estrangement, and his political shift.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="debates">
+            <h2>Debates</h2>
+            <p>Three live disagreements, each with the best case on both sides. Read both before deciding.</p>
+            <details><summary>Should there be a state at all?</summary><div class="duel"><div><h4>The case for</h4><p>Anarcho-capitalists say a monopoly on force has no consent behind it, and that competing courts, insurers, and security firms would serve people better.</p></div><div><h4>The case against</h4><p>Minarchists say disputes need a final arbiter, and that private security firms could grow into a new state.</p></div></div><p><strong>What would change your mind?</strong> Evidence on how private law works at scale, and on whether competing enforcers cooperate or fight.</p></details><details><summary>Are children self-owners?</summary><div class="duel"><div><h4>The case for</h4><p>No one owns another person, and children have minds and feelings. Treating them as property invites abuse.</p></div><div><h4>The case against</h4><p>Young children cannot make informed choices, so parents have duties and some authority. Autonomy grows with age.</p></div></div><p><strong>What would change your mind?</strong> A workable rule for when parental authority ends, and what counts as protection versus control.</p></details><details><summary>Is taxation theft?</summary><div class="duel"><div><h4>The case for</h4><p>Taxes are collected under threat of penalty. If a private person did this, we would call it extortion.</p></div><div><h4>The case against</h4><p>Citizens benefit from services, and democratic participation implies consent. Property rights themselves rely on laws that are funded somehow.</p></div></div><p><strong>What would change your mind?</strong> A convincing account of how law and defense are funded and enforced without any compulsion.</p></details>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Each debate has strong arguments on both sides.</li><li>A good test of any belief is to name what evidence would change your mind.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="quotes">
+            <h2>In Their Own Words</h2>
+            <p>Passages from foundational works, all in the public domain.</p>
+
+            <blockquote>
+                "…no one ought to harm another in his life, health, liberty, or possessions."
+                <cite>John Locke, <em>Second Treatise of Government</em> (1689), §6</cite>
+            </blockquote>
+            <blockquote>
+                "That the only purpose for which power can be rightfully exercised over any member
+                of a civilized community, against his will, is to prevent harm to others."
+                <cite>John Stuart Mill, <em>On Liberty</em> (1859)</cite>
+            </blockquote>
+            <blockquote>
+                "It is not from the benevolence of the butcher, the brewer, or the baker that we
+                expect our dinner, but from their regard to their own interest."
+                <cite>Adam Smith, <em>The Wealth of Nations</em> (1776)</cite>
+            </blockquote>
+            <blockquote>
+                "Life, faculties, production — in other words, individuality, liberty, property —
+                this is man."
+                <cite>Frédéric Bastiat, <em>The Law</em> (1850)</cite>
+            </blockquote>
+                                <h3>On Liberty and the State</h3>
+            <blockquote>"Over himself, over his own body and mind, the individual is sovereign."<cite>John Stuart Mill, <em>On Liberty</em> (1859)</cite></blockquote>
+            <blockquote>"That government is best which governs least."<cite>Henry David Thoreau, <em>Civil Disobedience</em> (1849), quoting a familiar motto</cite></blockquote>
+            <blockquote>"The state is the great fictitious entity by which everyone seeks to live at the expense of everyone else."<cite>Frédéric Bastiat, “The State” (1848)</cite></blockquote>
+            <blockquote>"Little else is requisite to carry a state to the highest degree of opulence… but peace, easy taxes, and a tolerable administration of justice."<cite>Adam Smith, 1755 lecture, as recorded by Dugald Stewart</cite></blockquote>
+            <h3>From Freedomain Radio</h3>
+            <blockquote>"…rape, theft, assault, and murder can never be universally preferable behavior."<cite>Stefan Molyneux, Freedomain episode 6197, "UPB Versus Evil" (spoken, from a published transcript)</cite></blockquote>
+            <blockquote>"The logic of personal, philosophical and political freedom."<cite>The show's own tagline, <em>Freedomain with Stefan Molyneux</em></cite></blockquote>
+            <p>These are short excerpts. Read the full works for context.</p>
+        </section>
+
+        <section class="content-area" id="peaceful-parenting">
+            <h2>Peaceful Parenting</h2>
+            <p>
+                Molyneux applies the non-aggression principle to the home: if hitting an adult is
+                aggression, hitting a child is too. He pairs this with a broader claim that
+                children learn the way they are treated, and that lasting character comes from
+                respect, not fear.
+            </p>
+            <h3>Core Ideas</h3>
+            <ul>
+                <li><strong>No physical punishment:</strong> Reason, explanation, and example replace spanking and threats.</li>
+                <li><strong>Self-regulation first:</strong> Parents manage their own anger before responding to a child.</li>
+                <li><strong>Connection before correction:</strong> A child who trusts a parent is easier to guide.</li>
+                <li><strong>Repair:</strong> When a parent loses their temper, they apologize and model accountability.</li>
+                <li><strong>Respect for the child as a person:</strong> Children have their own minds and feelings.</li>
+            </ul>
+            <div class="card">
+                <h3>What the Research Says</h3>
+                <p>
+                    A 2016 meta-analysis by Gershoff and Grogan-Kaylor found spanking linked to worse
+                    outcomes, including more aggression and poorer mental health, and to no clear
+                    benefits. The American Academy of Pediatrics recommends against it. Studies are
+                    mostly correlational, and some researchers dispute the size of the effect. Parenting
+                    research more broadly favors "authoritative" parenting, which is warm and also sets firm limits.
+                </p>
+            </div>
+                        <h3>Peaceful Parenting, Simply</h3>
+            <p class="lede">Be the calm, firm adult. Explain, hold the limit, and repair when you slip. A limit is not the same as a punishment.</p>
+            <ol class="steps">
+                <li><strong>Pause.</strong> Take a breath before you respond.</li>
+                <li><strong>Name the feeling.</strong> "You're angry that we have to leave."</li>
+                <li><strong>State the limit.</strong> "I won't let you hit."</li>
+                <li><strong>Offer a choice.</strong> "Do you want to walk or be carried?"</li>
+                <li><strong>Follow through.</strong> Calmly, every time.</li>
+                <li><strong>Repair.</strong> If you lost your temper, say sorry and explain.</li>
+            </ol>
+            <div class="table-wrap"><table class="compare"><thead><tr><th>Situation</th><th>Instead of</th><th>Try</th></tr></thead><tbody><tr><td>Hits a sibling</td><td>"Do that again and I will smack you."</td><td>Separate them calmly. "I won't let you hit. Hitting hurts. Let's breathe, then talk."</td></tr><tr><td>Tantrum in a shop</td><td>Threats, or a smack</td><td>Get low, name the feeling, hold the limit. "You're upset. The answer is still no." Leave if you must.</td></tr><tr><td>Won't go to bed</td><td>"Go to bed or else."</td><td>Explain why sleep matters, offer a choice of two books, keep a predictable routine.</td></tr><tr><td>Breaks something and lies</td><td>Interrogate and punish</td><td>"I'm not angry it broke. I'd like to know what happened." Praise honesty and fix it together.</td></tr><tr><td>You raised your voice</td><td>Make excuses</td><td>"I yelled, and that wasn't okay. I was frustrated. I'm sorry."</td></tr></tbody></table></div>
+            <h3>Common Questions</h3>
+            <details>
+                <summary>Does peaceful mean permissive?</summary>
+                <p>No. Peaceful parenting still sets limits, such as safety rules and bedtimes. It enforces them without humiliation, threats, or violence.</p>
+            </details>
+            <details>
+                <summary>Do children really own themselves?</summary>
+                <p>Libertarians disagree. Most say parents have a duty to protect and guide young children while not owning them, and that autonomy grows with age. This is one of the hard cases for the NAP.</p>
+            </details>
+            <details>
+                <summary>What if a child is in danger?</summary>
+                <p>Using force to protect someone from immediate harm, such as grabbing a toddler near a road, is defensive and consistent with the principle.</p>
+            </details>
+                    <aside class="molyneux"><h3>Molyneux's perspective</h3><p>Molyneux's parenting message is that cycles of violence can be broken within one generation. Parents who stay calm, explain their reasons, and apologize when they are wrong show children what honesty and self-control look like. Supporters say this reframes discipline as teaching, not control.</p></aside>
+                        <h3>Peaceful Parenting by Age</h3>
+            <p>General guidance, not professional or medical advice. Every child is different.</p>
+            <div class="paths">
+                <div class="card"><h3>Toddlers (1–3)</h3><p>Make the environment safe so you say “no” less. Use few, simple words. Expect big feelings, since the part of the brain that manages them is still developing. Name the feeling, hold the limit, and offer a distraction or a choice. Move your child away from danger calmly.</p></div><div class="card"><h3>School age (5–11)</h3><p>Explain the reasons for rules, and let children help set some. Use predictable routines and consequences that fit the situation, such as helping to clean up a spill. Listen to their side before you decide. Praise effort and honesty.</p></div><div class="card"><h3>Teenagers (12–18)</h3><p>Autonomy grows, so negotiate more and command less. Keep safety rules clear and firm. Protect time to talk, often in the car or at night. Respect privacy where safety allows, and stay curious, not angry, when they make mistakes.</p></div><div class="card"><h3>Adult children (18+)</h3><p>The relationship becomes one between equals. Offer advice when asked, and respect their choices about work, partners, and money, even when you disagree. Apologize for past mistakes, which can heal more than any lecture. Keep boundaries about money and housing clear and kind. Stay connected with invitations and interest, not control or guilt.</p></div>
+            </div>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Peaceful parenting still sets firm limits; it rejects physical punishment and humiliation.</li><li>Research links spanking to worse outcomes, though most studies are correlational.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="no-hitting">
+            <h2>Why Hitting Children Is Wrong</h2>
+            <p class="lede">If hitting an adult is assault, hitting a smaller, dependent child who cannot leave or fight back is not discipline. It is violence against the person least able to resist it.</p>
+            <h3>The Argument in Four Steps</h3>
+            <ol class="steps">
+                <li><strong>We already agree that hitting adults is wrong.</strong> If someone struck a coworker to “teach a lesson,” everyone would call it assault.</li>
+                <li><strong>A child is a person.</strong> A child has the same body, the same nerves, and the same capacity for pain and fear as an adult.</li>
+                <li><strong>A child is more vulnerable, not less.</strong> Children are smaller, fully dependent, and cannot walk away or call for help. Their dependence is a reason for more protection.</li>
+                <li><strong>So the burden of proof is on the one who hits.</strong> Spanking would need a strong justification, and the evidence shows it does not have one.</li>
+            </ol>
+            <h3>It Does Not Teach What Matters</h3>
+            <div class="paths">
+                <div class="card"><h3>It does not explain why</h3><p>A child who is hit learns that a bigger person was angry. They do not learn the reason the act was harmful, so the lesson is about avoiding punishment.</p></div><div class="card"><h3>It does not show what to do instead</h3><p>Even a child who understands that hitting a sibling was wrong still needs a better way to handle anger. Pain provides no skill, and explaining and practicing do.</p></div><div class="card"><h3>It models the behavior it wants to stop</h3><p>When a parent solves a problem by hitting, the child sees that hitting is how people get their way when they are bigger.</p></div>
+            </div>
+            <div class="table-wrap"><table class="compare"><thead><tr><th>The child needs to learn</th><th>Hitting teaches</th><th>Explaining and guiding teaches</th></tr></thead><tbody><tr><td>Why it was wrong</td><td>Nothing about the reason; only that a parent was angry.</td><td>The harm it caused and the value behind the rule.</td></tr><tr><td>What to do instead</td><td>Nothing.</td><td>A concrete alternative they can practice.</td></tr><tr><td>How to handle anger</td><td>Hitting is how you handle anger.</td><td>Pausing, naming feelings, and calm limits.</td></tr><tr><td>Whether to trust a parent</td><td>Fear of the person who should be safest.</td><td>A parent is a safe place to bring mistakes.</td></tr></tbody></table></div>
+            <h3>What the Evidence Says</h3>
+            <div class="card">
+                <p>
+                    Gershoff and Grogan-Kaylor’s 2016 meta-analysis pooled 75 studies covering more than
+                    160,000 children. It found spanking linked to more aggression, antisocial behavior,
+                    and mental-health problems, and to a poorer parent-child relationship. The one
+                    benefit it found was short-term compliance, which fades. The American Academy of
+                    Pediatrics recommends against spanking, and the UN Committee on the Rights of the
+                    Child classes corporal punishment as a form of violence. More than 60 countries
+                    have banned it. Experiments would be unethical, so the research is observational, but
+                    longitudinal studies that account for a child’s earlier behavior find similar patterns.
+                </p>
+            </div>
+            <h3>Is It “Abuse”?</h3>
+            <p>
+                Legally, abuse usually means injury or a high level of harm, and a spanking may fall
+                short of that threshold in a given jurisdiction. Some places, including Canada and
+                parts of the United States, still allow “reasonable” force by parents. But what the
+                law permits is a different question from what is right. By the standard we apply to
+                every adult, hitting a child is violence, and the risk of crossing into injury is real,
+                because anger and a child’s fragility are an unsafe combination.
+            </p>
+            <h3>Common Objections</h3>
+            <details><summary>“I was spanked and I turned out fine.”</summary><p>Many people did, and they are not to blame for what was done to them. But most people also did well despite things that were later found to be harmful. The question is whether the method helped, and the research says it did not.</p></details><details><summary>“A light swat is different from abuse.”</summary><p>There is a difference in degree, and no one is calling every parent a monster. Still, the research finds harm across ordinary spanking, not only severe cases, and a method that works only when it hurts has a built-in tendency to escalate.</p></details><details><summary>“What about a child in danger?”</summary><p>Protective force, such as grabbing a child about to run into traffic, is not punishment. It aims to stop an immediate danger and ends when the danger does.</p></details><details><summary>“Without it, aren’t kids permissive and spoiled?”</summary><p>No. Peaceful parenting keeps firm limits and follows through. It replaces pain with explanation, consequences that fit, and a calm adult. <a href="#peaceful-parenting">See the step-by-step guide</a>.</p></details>
+            <div class="card">
+                <h3>If You Have Spanked</h3>
+                <p>
+                    Most parents who spank are trying to do right by their children with the tools
+                    they were given. Stopping is always possible. Apologize to your child, explain that
+                    hitting was wrong, and tell them what you will do instead. Children are quick to
+                    forgive a parent who takes responsibility.
+                </p>
+            </div>
+            <aside class="molyneux"><h3>Molyneux's perspective</h3><p>He is among the most forceful voices against corporal punishment, and argues that the non-aggression principle applies to children as fully as to adults. Supporters say his message gives parents a clear rule, and a reason, in place of a habit.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>If hitting an adult is assault, hitting a smaller, dependent child needs far stronger justification.</li><li>Spanking does not teach why something is wrong or what to do instead.</li><li>The evidence links it to worse outcomes, and calm guidance works better.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="relationships">
+            <h2>Relationships</h2>
+            <p>
+                On this view, healthy relationships rest on free consent, honesty, and mutual
+                respect, because affection cannot be compelled.
+            </p>
+            <h3>Building Trust</h3>
+            <ul>
+                <li><strong>Voluntary commitment:</strong> Relationships thrive when both people choose to stay.</li>
+                <li><strong>Honest communication:</strong> Candor prevents resentment, even when it is uncomfortable.</li>
+                <li><strong>Boundaries:</strong> Respecting each other's autonomy strengthens the bond.</li>
+                <li><strong>Reciprocity:</strong> Generosity that flows both ways builds goodwill.</li>
+                <li><strong>Repair after conflict:</strong> Researcher John Gottman identifies criticism, contempt, defensiveness, and stonewalling as the habits most damaging to couples.</li>
+            </ul>
+            <h3>Family of Origin</h3>
+            <p>
+                A distinctive Freedomain Radio claim is that adult relationships with relatives are
+                voluntary too, and that people should be free to judge whether a family
+                relationship is good for them. For people who were truly abused, that is an
+                important permission.
+            </p>
+            <div class="card">
+                <h3>A Note of Caution</h3>
+                <p>
+                    The same idea has been criticized when applied broadly. Research on estrangement,
+                    including Karl Pillemer's work, finds it more common than many assume and often
+                    painful on both sides, and ordinary conflict is not the same as abuse. Anyone
+                    weighing a serious break with family is well served by talking it through with
+                    a licensed therapist, not only with online communities.
+                </p>
+            </div>
+            <aside class="response"><h3>Molyneux’s response and supporters’ reply</h3><p>Supporters say the principle is modest: no one is owed contact with a person who harms them, and adults get to decide. Molyneux frames it as a last resort for people from abusive families. They also note that research on estrangement finds many people report relief as well as pain, and that the first step he urges is honest conversation. They agree a therapist can help with a decision this serious.</p></aside>
+            <h3>Questions Worth Asking</h3>
+            <ul>
+                <li>Is this relationship one I would choose today, knowing what I know?</li>
+                <li>Have I said clearly what I need, and given the other person a chance to change?</li>
+                <li>Am I responding to a pattern of harm or to one painful moment?</li>
+            </ul>
+                    <aside class="molyneux"><h3>Molyneux's perspective</h3><p>He teaches that values, honesty, and willingness to face hard truths matter more than chemistry alone, and that people should choose partners and friends deliberately. Supporters credit this approach with helping them leave unhealthy patterns and build relationships on mutual respect.</p></aside>
+                        <h3>Conversations That Work: Scripts</h3>
+            <div class="table-wrap"><table class="compare"><thead><tr><th>Situation</th><th>Instead of</th><th>Try</th></tr></thead><tbody><tr><td>Raising a concern</td><td>"You never help around here."</td><td>"I feel overwhelmed with the dishes. Can we talk about sharing them?"</td></tr><tr><td>Disagreeing</td><td>"That’s ridiculous."</td><td>"I see it differently. Can I explain why, then hear your view?"</td></tr><tr><td>You were wrong</td><td>Change the subject</td><td>"I was wrong about that. I’m sorry. What would help make it right?"</td></tr><tr><td>Setting a boundary</td><td>Silence, then blow up</td><td>"I’m not comfortable with that. If it continues, I’ll leave the conversation."</td></tr></tbody></table></div>
+            <h3>Repairing After a Fight</h3>
+            <ol class="steps">
+                <li><strong>Cool down.</strong> If either of you is flooded with anger, take 20 minutes apart.</li>
+                <li><strong>Start gently.</strong> Gottman finds that a harsh opening predicts a bad ending.</li>
+                <li><strong>Own your part.</strong> Name one thing you did that made it worse.</li>
+                <li><strong>Accept repair attempts.</strong> A joke or a touch can be an olive branch.</li>
+                <li><strong>Aim for balance.</strong> Gottman’s research suggests stable couples show about five positive moments for every negative one during conflict.</li>
+            </ol>
+            <h3>Choosing a Partner Deliberately</h3>
+            <ul>
+                <li><strong>Values:</strong> Do you agree on honesty, money, children, and how to treat people?</li>
+                <li><strong>Kindness:</strong> How do they treat waiters, relatives, and you when stressed?</li>
+                <li><strong>Reliability:</strong> Do their actions match their words over time?</li>
+                <li><strong>Truth-telling:</strong> Can you disagree openly without fear?</li>
+                <li><strong>Growth:</strong> Do both of you want to keep learning?</li>
+            </ul>
+            <h3>When Estrangement Is, and Is Not, the Answer</h3>
+            <div class="duel"><div><h4>Often reasonable when</h4><p>There was serious abuse or ongoing harm, boundaries were set and repeatedly ignored, or contact consistently damages your safety or mental health.</p></div><div><h4>Try other steps first when</h4><p>The conflict is about disagreement, not harm. Options include limited contact, clear boundaries, shorter visits, a mediated conversation, or family therapy.</p></div></div>
+            <p>Supporters of Molyneux’s approach value the principle that no one owes continued contact to someone who harms them. A licensed therapist can help weigh a decision this serious, and the choice remains yours.</p>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Healthy relationships rest on consent, honesty, and repair after conflict.</li><li>Weigh serious estrangement carefully, ideally with a licensed therapist.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="happiness">
+            <h2>The Science of Happiness</h2>
+            <p>
+                Well-being research gives partial support to the libertarian emphasis on autonomy,
+                alongside findings that complicate it.
+            </p>
+            <h3>What the Research Says</h3>
+            <ul>
+                <li><strong>Autonomy:</strong> Self-determination theory (Deci and Ryan) names autonomy, competence, and relatedness as basic psychological needs.</li>
+                <li><strong>Relationships:</strong> The Harvard Study of Adult Development has found that the quality of close relationships is a leading predictor of health and happiness in later life.</li>
+                <li><strong>Freedom of choice:</strong> The World Happiness Report includes "freedom to make life choices" among the factors that explain differences between countries.</li>
+                <li><strong>Meaning:</strong> Pursuing purposes larger than oneself is associated with lasting satisfaction.</li>
+            </ul>
+            <div class="card">
+                <h3>The Other Side</h3>
+                <p>
+                    Autonomy is not the absence of obligation. Commitments to family, community, and
+                    long-term goals are major sources of meaning, and too many options can feel
+                    overwhelming. Most of these findings are correlations across large groups, not guarantees for any one person.
+                </p>
+            </div>
+                    <aside class="molyneux"><h3>Molyneux's perspective</h3><p>Molyneux ties well-being to integrity: living in line with what you believe to be true and good. Supporters say this brings peace of mind that status or comfort cannot, and it fits research linking authenticity and a sense of purpose with satisfaction.</p></aside>
+            <aside class="response"><h3>A libertarian response</h3><p>Libertarians agree that obligations matter, and say the point is that the best ones are chosen. Marriage, parenthood, friendship, and community are all voluntary commitments, so a free society makes room for deep obligation, built on consent instead of compulsion. Freedom is what lets people choose commitments that give their lives meaning.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Autonomy, relationships, and meaning all matter for well-being.</li><li>Obligations and commitments are also sources of meaning.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="living-it">
+            <h2>Putting It Into Practice</h2>
+            <p class="lede">Philosophy is only worth the life it changes. These are practical ways to live the principles each day.</p>
+            <h3>Eight Areas of Daily Life</h3>
+            <div class="paths"><div class="card"><h3>Honesty and agreements</h3><p>Say what you mean and keep your promises. Write down important agreements, and renegotiate openly instead of quietly breaking them.</p></div><div class="card"><h3>Ask, don’t demand</h3><p>Replace orders with requests and reasons, at home and at work. Accept “no” without punishing it.</p></div><div class="card"><h3>Settling disputes</h3><p>Talk first. If that fails, use a neutral mediator. Leave the other person a way to save face.</p></div><div class="card"><h3>Money and work</h3><p>Live within your means, build savings, and create value that people pay for willingly. Give to causes you choose.</p></div><div class="card"><h3>Health and self-ownership</h3><p>Take responsibility for sleep, food, and movement. Seek informed care and second opinions.</p></div><div class="card"><h3>Community</h3><p>Join voluntary groups such as clubs, volunteer teams, and neighbor networks. Mutual aid is liberty in action.</p></div><div class="card"><h3>Learning</h3><p>Read the best case for views you reject, and state it fairly before replying. Start a reading group.</p></div><div class="card"><h3>Talking about ideas</h3><p>Ask questions, listen, and aim to understand, not to win. Do not corner anyone at dinner.</p></div></div>
+            <h3>A Seven-Day Starter Plan</h3>
+            <ol class="steps">
+                <li><strong>Day 1: Notice force.</strong> Where do you use threats, guilt, or pressure?</li>
+                <li><strong>Day 2: Make one request.</strong> Replace one demand with a request and a reason.</li>
+                <li><strong>Day 3: Keep a promise.</strong> Do the thing you have been putting off.</li>
+                <li><strong>Day 4: Repair.</strong> Apologize for something you got wrong.</li>
+                <li><strong>Day 5: Read the other side.</strong> Find a thoughtful critic and state their case fairly.</li>
+                <li><strong>Day 6: Give freely.</strong> Do something generous that no one required.</li>
+                <li><strong>Day 7: Review.</strong> Write down what changed and what to keep.</li>
+            </ol>
+            <h3>Questions for a Weekly Review</h3>
+            <ul>
+                <li>Did I tell the truth, even when it was uncomfortable?</li>
+                <li>Did I ask or demand, and how did people respond?</li>
+                <li>Did I keep my agreements?</li>
+                <li>Did I learn something that changed my mind?</li>
+                <li>What is one thing I will do differently next week?</li>
+            </ul>
+            <aside class="molyneux"><h3>Molyneux's perspective</h3><p>He argues that philosophy is a practice, not a spectator sport, and that truth-telling, courage, and honest self-examination are where it starts. Supporters say this practical emphasis is what separates his work from abstract theory.</p></aside>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Principles matter when they change daily habits.</li><li>Start small: ask instead of demand, keep promises, repair mistakes.</li><li>Review weekly and keep what works.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="quiz">
+            <h2>Test Yourself</h2>
+            <p>Fifteen questions on the ideas above. Each answer comes with an explanation.</p>
+            <div id="quiz-root"></div>
+            <p id="quiz-score" aria-live="polite"></p>
+            <button id="quiz-retry" class="btn btn-solid" type="button" hidden>Try again</button>
+        </section>
+
+        <section class="content-area" id="reading">
+            <h2>Further Reading</h2>
+            <p>Read the critics alongside the advocates. Understanding an idea means knowing its best objections.</p>
+            <h3>Foundations</h3>
+            <ul>
+                <li>John Stuart Mill, <em>On Liberty</em> (1859)</li>
+                <li>Frédéric Bastiat, <em>The Law</em> (1850)</li>
+                <li>Friedrich Hayek, "The Use of Knowledge in Society" (1945)</li>
+                <li>Robert Nozick, <em>Anarchy, State, and Utopia</em> (1974)</li>
+                <li>Murray Rothbard, <em>For a New Liberty</em> (1973)</li>
+                <li>David Friedman, <em>The Machinery of Freedom</em> (1973)</li>
+            </ul>
+            <h3>On Molyneux and UPB</h3>
+            <ul>
+                <li>Stefan Molyneux, <em>Universally Preferable Behavior</em> (2007)</li>
+                <li>David Gordon, review in <em>The Mises Review</em> 18:2 (2012)</li>
+            </ul>
+            <h3>Research Cited</h3>
+            <ul>
+                <li>Gershoff and Grogan-Kaylor, "Spanking and Child Outcomes," <em>Journal of Family Psychology</em> (2016)</li>
+                <li>Karl Pillemer, <em>Fault Lines</em> (2020), on family estrangement</li>
+                <li>Robert Waldinger and Marc Schulz, <em>The Good Life</em> (2023)</li>
+                <li>Edward Deci and Richard Ryan, work on self-determination theory</li>
+            </ul>
+        </section>
+
+        <section class="content-area" id="freedomain">
+            <h2>Explore Freedomain Radio</h2>
+            <p class="lede">Hear the ideas in Stefan Molyneux’s own voice, with thousands of episodes to choose from and free to listen to.</p>
+            <p>
+                Freedomain Radio is one of the longest-running philosophy programs online. Since
+                2005 it has combined talks on ethics and politics with call-in shows where listeners
+                bring real questions about family, relationships, and choices. The show describes
+                itself as the largest philosophy show on the web, with over 250 million downloads.
+            </p>
+            <h3>Why Supporters Love It</h3>
+            <ul>
+                <li><strong>Free to listen:</strong> Episodes are available free on major podcast platforms, with no paywall to start.</li>
+                <li><strong>Voluntary support:</strong> The show is funded by listener donations, which fits its message that value should be exchanged by choice.</li>
+                <li><strong>Depth and variety:</strong> UPB, peaceful parenting, relationships, history, and current events, with a deep back catalog.</li>
+                <li><strong>Practical philosophy:</strong> Call-in episodes show the ideas applied to real problems.</li>
+                <li><strong>Free books:</strong> Some of his writing has been offered free, such as his novel <em>The Present</em>.</li>
+            </ul>
+            <p><a class="btn btn-solid" href="https://freedomain.com" target="_blank" rel="noopener noreferrer">Visit Freedomain Radio</a></p>
+            <div class="card">
+                <h3>A Note on This Site</h3>
+                <p>
+                    This library is an independent project and is not run by Freedomain Radio. The link
+                    opens the official site in a new tab. Check there for what is free and what is
+                    optional. A philosophy of argument asks you to hear both sides, so read the
+                    <a href="#criticism">Criticisms</a> as well.
+                </p>
+            </div>
+            <aside class="takeaways"><h3>Key takeaways</h3><ul><li>Freedomain Radio offers thousands of episodes, free to listen to.</li><li>It is supported by voluntary donations, in keeping with its philosophy.</li><li>Listen with an open mind and read the criticisms too.</li></ul></aside>
+        </section>
+
+        <section class="content-area" id="glossary">
+            <h2>Glossary</h2>
+            <dl>
+                <dt>Anarcho-capitalism</dt><dd>The view that law, defense, and all other services can and should be provided by voluntary, market institutions.</dd>
+                <dt>deFOO</dt><dd>Freedomain Radio term for deliberately ending contact with one's family of origin.</dd>
+                <dt>Freedomain Radio</dt><dd>The philosophy podcast and community Stefan Molyneux founded in 2005.</dd>
+                <dt>Minarchism</dt><dd>Support for a minimal state limited to protecting rights and enforcing contracts.</dd>
+                <dt>Non-Aggression Principle (NAP)</dt><dd>The rule that initiating force or fraud against a person or their property is wrong.</dd>
+                <dt>Peaceful parenting</dt><dd>Raising children through explanation, example, and repair, without physical punishment or threats.</dd>
+                <dt>Self-ownership</dt><dd>The claim that each person has exclusive rightful control over their own body and mind.</dd>
+                <dt>Spontaneous order</dt><dd>Complex social patterns that arise from individual choices, without central design.</dd>
+                <dt>Universally Preferable Behavior (UPB)</dt><dd>Molyneux's proposed logical test for moral rules: a rule must be universalizable among all affected people.</dd>
+                <dt>Voluntaryism</dt><dd>The principle that all human relationships should be based on consent.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>Library of Reason</strong> — essays on liberty and its critics.</p>
+            <p>This site presents ideas for study. It is not legal, medical, or mental-health advice.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
